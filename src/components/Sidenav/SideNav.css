@@ -1,0 +1,30 @@
+.sidenav {
+	flex: 1;
+	background-color: #15294b;
+	height: 86vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 0.5rem;
+}
+.link {
+	width: 100%;
+	height: 70px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 1rem 1rem;
+}
+.sidenav a.active {
+	background-color: #e0e6f2;
+	color: #15294b;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.nav-titles {
+	font-size: 0.8em;
+}
